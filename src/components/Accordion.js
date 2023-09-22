@@ -1,5 +1,5 @@
 import AccordionItem from "./AccordionItem";
-import "./index.css";
+// import "../index.css";
 
 export default function Accordion({ faqs }) {
   return (

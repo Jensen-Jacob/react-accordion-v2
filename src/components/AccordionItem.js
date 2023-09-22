@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./index.css";
+// import "../index.css";
 
 export default function AccordionItem({ num, title, text }) {
   const [isOpen, setIsOpen] = useState(false);
