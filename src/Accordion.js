@@ -10,7 +10,12 @@ export default function Accordion({ faqs }) {
           faq,
           index // Here key also can be used instead of index
         ) => (
-          <AccordionItem num={index + 1} title={faq.title} text={faq.text} />
+          <AccordionItem
+            num={index + 1}
+            title={faq.title}
+            text={faq.text}
+            key={index}
+          />
         )
       )}
     </div>
