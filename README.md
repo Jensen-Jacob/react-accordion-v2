@@ -1,4 +1,4 @@
-# React Accordion Component
+# React Accordion Component Version 2
 
 This is an accordion component built using React. It can be used in usecases like faqs, etc.
 
@@ -12,7 +12,8 @@ To get started, first download the files and run the "npm i" command in the term
 # Usage
 
 You can open/close each accordion by clicking on it. You can see the content inside when the accordion is open. 
-Each accordion can be opened and closed independently, i.e. opening/closing one accordion does not affect the rest. 
+In this version, one accordion can be opened at a time, i.e. opening one accordion closes the rest. Only one
+remains open at a time.
 
 # Available Scripts
 
